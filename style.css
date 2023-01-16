@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    width: 100%;
+}
+
+nav ul li
+{
+    float: left;
+    padding: 1em;
+    width: 25%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li a
+{
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 0.2em; 
+    margin-right: 0.5em;
+    text-decoration: none;
+    color: gray;
+    border-left: 4px solid red;
+    line-height: 1.5;      
+}
+
+#dropdown
+{
+    position: relative;
+    display: block;
+}
+
+#dropdown-list
+{
+    display: none;
+    position: absolute;
+    padding-left:1em;
+}
+
+#dropdown-list li a
+{
+    border: none;
+    font-size:1em;
+    display: block;
+    padding-left: 0.5em;
+}
+
+#dropdown:hover #dropdown-list
+{
+    display: block;
+}
